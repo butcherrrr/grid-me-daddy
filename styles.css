@@ -1,0 +1,30 @@
+body {
+  background-color: #293241;
+}
+
+h1 {
+  color: #e0fbfc;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  justify-content: center;
+}
+
+.cell {
+  display: inline-block;
+  background-color: #293241;
+  border: 1px solid #3d5a80;
+  width: 200px;
+  height: 200px;
+  margin: 3px;
+  transition: background-color 0.2s linear;
+}
+
+.clickedCell {
+  background-color: #ee6c4d;
+}
+
+
