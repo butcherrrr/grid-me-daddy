@@ -28,7 +28,7 @@ const clearGrid = () => {
   }, 400);
 };
 
-handleClick = (e) => {
+handleClick = e => {
   if (clickedQueue.includes(e.target)) return;
 
   e.target.classList.add("clickedCell");
